@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+</head>
+<style>
+    table, th, td {
+      border:1px solid black;
+    }
+
+</style>
+<body>
+    <header>
+        <h1>My name is John Doe.</h1>
+        <img src="johndoe.png" alt="This is John Doe's picture" width="200" height="200">
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>=====================================</p>
+        <p><b>Course:</b> Computer Science</p>
+        <p><i>"Learning never exhausts the mind."</i> </p>
+        <p>I am skilled in <mark>Web Development</mark> and <mark>Data Analysis</mark>.</p>
+    </section>
+
+    <section>
+        <h2>Hobbies and Interests</h2>
+        <ul>
+            <li>Reading</li>
+            <li>Hiking</li>
+            <li>Photography</li>
+            <li>Coding</li>
+        </ul>
+
+        <h2>Skills Development</h2>
+        <ol>
+            <li>HTML & CSS - 2020</li>
+            <li>JavaScript - 2021</li>
+            <li>React - 2022</li>
+            <li>Node.js - 2023</li>
+        </ol>        
+    </section>
+
+    <h2>Subjects Learned</h2>
+    <table>
+        <tr>
+            <th>Subject Name</th>
+            <th>Code</th>
+        </tr>
+        <tr>
+            <td>Introduction to Programming</td>
+            <td>CS101</td>
+        </tr>
+        <tr>
+            <td>Data Structures</td>
+            <td>CS102</td>
+        </tr>
+        <tr>
+            <td>Database Management Systems</td>
+            <td>CS103</td>
+        </tr>
+        <tr>
+            <td>Web Development</td>
+            <td>CS104</td>
+        </tr>
+        <tr>
+            <td>Operating Systems</td>
+            <td>CS105</td>
+        </tr>
+    </table>    
+
+    <h2>Contact Me</h2>
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="subject" class="form-label">Subject of Inquiry:</label><br>
+            <input type="radio" id="inquiry" name="subject" value="Inquiry" required>
+            <label for="inquiry">Inquiry</label><br>
+            <input type="radio" id="feedback" name="subject" value="Feedback" required>
+            <label for="feedback">Feedback</label><br>
+            <input type="radio" id="collaboration" name="subject" value="Collaboration" required>
+            <label for="collaboration">Collaboration</label><br>
+        </div>
+
+        <div class="mb-3">
+            <label for="interests" class="form-label">Select Your Interests:</label><br>
+            <input type="checkbox" id="coding" name="interests[]" value="Coding">
+            <label for="coding">Coding</label><br>
+            <input type="checkbox" id="design" name="interests[]" value="Design">
+            <label for="design">Design</label><br>
+            <input type="checkbox" id="writing" name="interests[]" value="Writing">
+            <label for="writing">Writing</label><br>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <footer>
+        <h2>Connect with Me</h2>
+        <p>Follow me on social media:</p>
+        <ul>
+            <li><a href="https://www.facebook.com/tarsoft.co/" target="_blank">Facebook</a></li>
+            <li><a href="https://www.tiktok.com/@tarsoft.co?lang=en" target="_blank">Tiktok</a></li>
+            <li><a href="https://www.instagram.com/tarsoft.co/" target="_blank">Instagram</a></li>
+        </ul>
+
+        <a href="https://www.facebook.com/tarsoft.co/" target="_blank">
+            <img src="facebook.png" alt="Facebook" width="50" height="50">
+        </a>
+        <a href="https://www.tiktok.com/@tarsoft.co?lang=en" target="_blank">
+            <img src="tiktok.png" alt="Tiktok" width="50" height="50">
+        </a>
+        <a href="https://www.instagram.com/tarsoft.co/" target="_blank">
+            <img src="instagram.png" alt="Instagram" width="50" height="50">
+        </a>
+
+    </footer>
+        
+</body>
+</html>
